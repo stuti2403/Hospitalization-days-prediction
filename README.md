@@ -45,6 +45,6 @@ The model worked with an accuracy of
 The ensembled model had an accuracy of 85%
 
 
-
-![image](output.png)
+##OUTPUT
+![image](output.jpeg)
 
