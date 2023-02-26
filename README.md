@@ -18,19 +18,33 @@ Amid the time of recession and increase in healthcare expenses after the pandemi
 - [Machine Learning]
 
 <!-- - [MobileNetV2](https://arxiv.org/abs/1801.04381) -->
-
+<h1 align="center"> Relational Schema of the desired system</h1>
+<div align= "center"><img src="https://github.com/stuti2403/Hospitalization-days-prediction/blob/main/Relational Schema.png"/></div>
 
 ## About Project
-This project rigorous data preprocessing which was a required step as a result of the nature of given dataset. The provided database comprised of 
+THE PROBLEM STATEMENT HAS BEEN SOLVED BY REGRESSION IN THIS PROJECT.
+This project needs rigorous data preprocessing which was a required step as a result of the nature of given dataset. The provided database comprised of 13 files in csv format. As a team, we initially gathered our understanding of the given data and the required output, followed by the eventual design of the system.
 
-#### The model is capable of predicting multiple faces with or without masks at the same time
+Data Preprocessing and Feature Extraction: This was the most crucial part of the design as data was very haphazard. We initially found correlation coefficient between the output feature and all input features, followed by handling of missing and inconsistent data. We then found the most influential features through filter method, did one hot encoding for handling categorical features, proceeded with random forest classifier and then wrapping method. Having obtained ranking of every input feature, we selected 70 out of 102 input features.
 
-## Working 
+Data Modelling: To create a prediction model, we used the approach of classification models for categorical data and regresssion models for numerical data. We found decision tree classifier to be most effective for classification part and Gradient boosting classifier to be most effective for regression problem. We the ensembled these two models for increasing the final performace of the ensembled model.
 
-### Without Mask
+Prediction: The ensembled model was used to predict the final optimized hospitalization days of patients.
+
+
+## PERFORMANCE
+
+### Decision Tree Classifier
+The classifier worked with an accuracy of 83% on the testing data
+
+###Gradient Boosting Regression Model
+The model worked with an accuracy of 
+
+
+###Ensembled Model
+The ensembled model had an accuracy of 85%
+
+
 
 ![image](output.png)
 
-## Dataset
-
-The data used can be downloaded through this [link](https://www.kaggle.com/datasets/aneerbanchakraborty/face-mask-detection-data)There are 1915 images with mask and 1918 images without mask comprosing a total of 3833 images.
