@@ -9,15 +9,14 @@ Prevention of unnecessary hospitalization and prediction of days the patient is 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ## :innocent: Motivation
-Amid the ongoing COVID-19 pandemic, there are no efficient face mask detection applications which are now in high demand for transportation means, densely populated areas, residential districts, large-scale manufacturers and other enterprises to ensure safety. The absence of large datasets of __‘with_mask’__ images has made this task cumbersome and challenging. 
+Amid the time of recession and increase in healthcare expenses after the pandemic, it has become of utmost importance to cut down expenditure on healthcare as well as minimizing the number of hospitalizations. This would not only promote less crowding in hospitals, bearing in mind precautionary measures in lieu of the pandemic, but also minimize the expenditure of people and government on healthcare.
 
+## :warning: Framework used
 
-## :warning: TechStack/framework used
+- [Python](https://www.python.org/)
+- [Data Science]
+- [Machine Learning]
 
-- [OpenCV](https://opencv.org/)
-- [Haar Cascade froontal face detector](https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html)
-- [Keras](https://keras.io/)
-- [TensorFlow](https://www.tensorflow.org/)
 <!-- - [MobileNetV2](https://arxiv.org/abs/1801.04381) -->
 
 
