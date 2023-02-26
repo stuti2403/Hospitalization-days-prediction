@@ -21,10 +21,7 @@ Amid the time of recession and increase in healthcare expenses after the pandemi
 
 
 ## About Project
-This project uses a Deep Neural Network, more specifically a Convolutional Neural Network (CNN), to differentiate between images of people with and without masks. The CNN manages to get 
-an accuracy of **96.8% on the test set**. Then the stored weights of the created model are used to classify as mask or no mask, in real time, using OpenCV.
-With the webcam capturing the video, the frames are preprocessed and fed to the model to accomplish this task. The model works efficiently with no apparent lag time between
-wearing/removing mask and display of prediction.
+This project rigorous data preprocessing which was a required step as a result of the nature of given dataset. The provided database comprised of 
 
 #### The model is capable of predicting multiple faces with or without masks at the same time
 
