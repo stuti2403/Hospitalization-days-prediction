@@ -35,14 +35,14 @@ Prediction: The ensembled model was used to predict the final optimized hospital
 ## PERFORMANCE
 
 ### Decision Tree Classifier
-The classifier worked with an accuracy of 83% on the testing data
+The classifier worked with an accuracy of 85.01% on the testing data
 
 ###Gradient Boosting Regression Model
 The model worked with an accuracy of 
 
 
 ###Ensembled Model
-The ensembled model had an accuracy of 85%
+The ensembled model had an accuracy of 89.51%
 
 
 ##OUTPUT
